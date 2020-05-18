@@ -8,3 +8,5 @@ There are few ways to implement real time data to clients
 - Server-Sent events (server push).
 
 In this repo, we will look into using SSE with node and vuejs
+
+__INPROGRESS__
