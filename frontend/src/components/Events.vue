@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      <button type="button" v-on:click="increment">Plus Me!</button>
+      <button type="button" v-on:click="events">Plus Me!</button>
     </p>
     <p>
       <event></event>
@@ -21,13 +21,8 @@ export default {
     msg: String
   },
   methods: {
-    increment() {
-      this.$store.commit('events');
-    }
-  },
-  computed: {
-    count() {
-      return this.$store.state.count;
+    events() {
+      this.$store.dispatch('events/getAll');
     }
   }
 };

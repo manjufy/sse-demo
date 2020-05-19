@@ -1,11 +1,11 @@
 <template>
-  <div>{{ count }}</div>
+  <div>{{ all }}</div>
 </template>
 <script>
 export default {
   computed: {
-    count() {
-      return this.$store.state.count;
+    all() {
+      return this.$store.state.events.all;
     }
   }
 };
