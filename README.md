@@ -1,4 +1,4 @@
-# Servier-Sent Events Demo
+# Server-Sent Events Demo
 
 This repo is to demonstrate the Server-Sent events. 
 There are few ways to implement real time data to clients
